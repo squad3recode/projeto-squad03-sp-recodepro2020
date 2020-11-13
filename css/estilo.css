@@ -1,0 +1,219 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+main{
+    margin-top: 80px;
+}
+/* Menu */
+.menu nav{ 
+    background-color:#54212A;
+    width: 1366px;
+    position: fixed;
+    top: 0px;
+}
+.menu a{
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    padding: 26px 5px;
+    font-size: 22px;
+}
+
+.menu_btn:hover{
+    background-color: #983440;
+}
+.menu img{
+    vertical-align: middle;
+}
+.logotipo{
+    margin-left: 20px;
+    margin-right: 360px;
+}
+.menu_fazerquiz{
+    background-color: #CB6A56;
+}
+.menu_fazerquiz:hover{
+    background-color: #F69679;
+ 
+}
+/* Fim Menu */
+
+/* Seção do Banner Principal */
+.banner{
+    margin-top: 80px;
+    background-image: url('../img/bannerprincipal-01.png');
+    height: 480px;
+    text-align: center;
+    padding: 60px;
+}
+.banner h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.banner p{
+    margin: 30px;
+    font-size: 20px;
+}
+.banner button{
+    margin-top: 260px;
+    padding:5px 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #983440;
+    color: white;
+}
+.banner button:hover{
+    background-color: #54212A;
+}
+/* Fim da seção do Banner Principal */
+
+/* Seção do Porque fazer o quiz? */
+.pq_fazer_o_quiz{
+    margin-top: 40px;
+    padding: 40px 100px;
+    background-color: #F69679;
+}
+.pq_fazer_o_quiz h2{
+    font-size: 34px;
+    text-align: center;
+}
+.pq_fazer_o_quiz h3{
+    margin-bottom: 20px;
+}
+.pq_fazer_o_quiz div{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px 45px;
+}
+/* Fim da seção do Porque fazer o quiz? */
+
+/* Seção do Por que confiar em nos? */
+.confiar_em_nos{
+    margin-top: 40px;
+    padding: 40px 100px;
+    background-color: #BED0D0;
+    text-align: center;
+}
+.confiar_em_nos h2{
+    font-size: 34px;
+}
+.confiar_em_nos div{
+    display: inline-block;
+    vertical-align: middle;
+    width: 320px;
+    padding: 40px 20px;
+    margin: 40px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #32445e85;
+    background-color: white;
+}
+.confiar_em_nos h3{
+    margin: 20px;
+}
+
+/* Fim da seção do Por que confiar em nos? */
+
+/* Seção do Footer */
+footer{
+    margin-top: 20px;
+    padding: 40px;
+    text-align: center;    
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    margin: auto 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+footer a:hover{
+    color: #32445E;
+    background-color: #bed0d027;
+}
+footer p{
+    margin: 30px 460px 0px;
+    display: inline-block;
+    font-weight: lighter;
+}
+/* Fim do Footer */
+
+/* Login */
+.login_cadastramento{
+    text-align: center;
+    margin: 0% 33%;   
+}
+.login_cadastramento div{
+    margin-top: 120px;
+    padding: 20px;
+    width: 400px;
+    border-style: solid;
+    border-color: #BED0D0;
+    border-radius: 10px;
+}
+.form_login{
+    text-align: left;
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.login_entrar{
+    margin: 10px;
+    width: 150px;
+    padding: 7px;
+    color: white;
+    background-color: #32445E;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.login_cadastramento hr, p{
+    margin: 10px;
+}
+.login_cadastramento a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #32445E;
+    
+}
+/* Fim do Login */
+
+/* Perfil */
+.perfil{
+    text-align: center;
+    margin: 0% 33%;   
+}
+.perfil div{
+    text-align: left;
+    margin-top: 120px;
+    padding: 20px;
+    width: 400px;
+    border-style: solid;
+    border-color: #BED0D0;
+    border-radius: 10px;
+}
+.perfil h1{
+    text-align: center;
+}
+.perfil h2, p{
+    margin: 5px 0px;
+}
+.perfil hr{
+    margin: 15px 0px;
+}
+.perfil button{
+    margin: 10px 30px;
+    width: 120px;
+    padding: 7px;
+    background-color: #32445E;
+    border-radius: 5px;
+}
+.perfil a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+/* Fim do Perfil */
