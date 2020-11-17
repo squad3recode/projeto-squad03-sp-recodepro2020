@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css">
-    <title>Nome do projeto - Perfil</title>
+    <title>Magnólia - Perfil</title>
 </head>
 <body>
     <menu class="menu">
         <nav>
-            <!-- aplicar funcionalidade para navegar nas seções -->
-            <a class="logotipo" href="./index.html"><img src="./img/logotipo.png" alt="Logotipo"></a>
+            <a class="logotipo" href="./index.php"><img src="./img/logotipo.svg" alt="Logotipo"></a>
             <a class="menu_btn" href="#">Por que fazer</a>
             <a class="menu_btn" href="#">Por que confiar</a>
             <a class="menu_btn" href=#>Sobre nós</a>
             <a class="menu_btn" href="#">Contato</a>
             <a class="menu_fazerquiz" href="#">Fazer Quiz</a>
-            <a class="menu_btn" href="login.html">Login</a>
+            <a class="menu_btn" href="login.php">Login</a>
         </nav>
     </menu>
 
@@ -32,9 +31,9 @@
             <p>cadastrado:exemplo.papaeira@gmail.com</p>
         </div>
         <button><a href="#">Alterar perfil</a></button>
-        <button><a href="./index.html">Sair</a></button>
+        <button><a href="./index.php">Sair</a></button>
     </main>
-
+    <br/><br/><br/><br/><br/><br/>
     <footer>
         <nav>
             <a href="#">Testemunhos</a>
@@ -44,9 +43,9 @@
             <a href="#">Política de Privacidade</a>
         </nav>
         <p>&copy;2020 - Squad 3 SP1 - Tarde</p>
-        <img src="./img/redesocial.png" alt="Rede Social 1">
-        <img src="./img/redesocial.png" alt="Rede Social 2">
-        <img src="./img/redesocial.png" alt="Rede Social 3">
+        <img src="./img/redesocial01.svg" alt="Rede Social 1">
+        <img src="./img/redesocial02.svg" alt="Rede Social 2">
+        <img src="./img/redesocial03.svg" alt="Rede Social 3">
     </footer>
 </body>
 </html>

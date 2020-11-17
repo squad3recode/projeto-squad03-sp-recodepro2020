@@ -5,36 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css">
-    <title>Nome do projeto - Login</title>
+    <title>Magnólia - Login</title>
 </head>
 
 <body>
     <menu class="menu">
         <nav>
-            <!-- aplicar funcionalidade para navegar nas seções -->
-            <a class="logotipo" href="./index.html"><img src="./img/logotipo.png" alt="Logotipo"></a>
+            <a class="logotipo" href="./index.php"><img src="./img/logotipo.svg" alt="Logotipo"></a>
             <a class="menu_btn" href="#">Por que fazer</a>
             <a class="menu_btn" href="#">Por que confiar</a>
             <a class="menu_btn" href=#>Sobre nós</a>
             <a class="menu_btn" href="#">Contato</a>
             <a class="menu_fazerquiz" href="#">Fazer Quiz</a>
-            <a class="menu_btn" href="login.html">Login</a>
+            <a class="menu_btn" href="login.php">Login</a>
         </nav>
     </menu>
 
     <main class="login_cadastramento">
         <div>
-            <form action="./index.html">
+            <form action="./index.php">
                 <p>E-mail: <input class="form_login" type="text" name="nome"></p>
                 <p>Senha: <input class="form_login" type="password" name="senha"></p>
                 <input class="login_entrar" type="submit" value="Entrar" name="submit">
             </form>
             <hr>
             <p>Não possui uma conta?</p>
-            <a href="./cadastramento.html">Cadastre-se</a>
+            <a href="./cadastramento.php">Cadastre-se</a>
         </div>
     </main>
-
+    <br/><br/><br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/><br/><br/><br/>
     <footer>
         <nav>
             <a href="#">Testemunhos</a>
@@ -44,9 +44,9 @@
             <a href="#">Política de Privacidade</a>
         </nav>
         <p>&copy;2020 - Squad 3 SP1 - Tarde</p>
-        <img src="./img/redesocial.png" alt="Rede Social 1">
-        <img src="./img/redesocial.png" alt="Rede Social 2">
-        <img src="./img/redesocial.png" alt="Rede Social 3">
+        <img src="./img/redesocial01.svg" alt="Rede Social 1">
+        <img src="./img/redesocial02.svg" alt="Rede Social 2">
+        <img src="./img/redesocial03.svg" alt="Rede Social 3">
     </footer>
 </body>
 

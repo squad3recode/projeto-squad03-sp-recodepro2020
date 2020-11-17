@@ -3,90 +3,111 @@
     padding: 0px;
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
-main{
-    margin-top: 80px;
-}
+
 /* Menu */
-.menu nav{ 
-    background-color:#54212A;
-    width: 1366px;
+.menu{
+    width: 100%;
+    background-color:#b83345;
+
     position: fixed;
     top: 0px;
+}
+
+.menu nav{ 
+    text-align: center;
+    width: 90%;
+    margin: 0% auto;
 }
 .menu a{
     vertical-align: middle;
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     padding: 26px 5px;
     font-size: 22px;
 }
 
 .menu_btn:hover{
-    background-color: #983440;
+    background-color: #e67278;
 }
 .menu img{
     vertical-align: middle;
+    margin-right: 15%;
 }
-.logotipo{
-    margin-left: 20px;
-    margin-right: 360px;
-}
+
 .menu_fazerquiz{
-    background-color: #CB6A56;
+    background-color: #7b98db;
 }
 .menu_fazerquiz:hover{
-    background-color: #F69679;
+    background-color: #c5eff2;
  
 }
 /* Fim Menu */
 
+main{
+    margin-top: 50px;
+    width: 100%;
+}
+
 /* Seção do Banner Principal */
 .banner{
-    margin-top: 80px;
-    background-image: url('../img/bannerprincipal-01.png');
-    height: 480px;
-    text-align: center;
-    padding: 60px;
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* text-align: center; */
+    height: 100vh;
 }
-.banner h1{
+/* .banner h1{
     margin-bottom: 30px;
     font-size: 40px;
 }
 .banner p{
     margin: 30px;
     font-size: 20px;
-}
+} */
 .banner button{
-    margin-top: 260px;
+    margin-top: 38%;
+    margin-left: 24%;
     padding:5px 50px;
-    font-size: 25px;
+    font-size: 30px;
     border-radius: 10px;
     border-style: none;
-    background-color: #983440;
-    color: white;
+    background-color: #7b98db;
+    color: #ffffff;
 }
 .banner button:hover{
-    background-color: #54212A;
+    color: #7b98db;
+    background-color: #c5eff2;
 }
 /* Fim da seção do Banner Principal */
 
 /* Seção do Porque fazer o quiz? */
 .pq_fazer_o_quiz{
-    margin-top: 40px;
     padding: 40px 100px;
-    background-color: #F69679;
+    text-align: center;
+    color: #b83345;
 }
 .pq_fazer_o_quiz h2{
-    font-size: 34px;
+    margin-bottom: 40px;
+    font-size: 40px;
     text-align: center;
 }
 .pq_fazer_o_quiz h3{
     margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.pq_fazer_o_quiz p{
+    color: #e67278;
+    font-size: 16px;
 }
 .pq_fazer_o_quiz div{
     display: inline-block;
+    text-align: left;
     vertical-align: middle;
-    margin: 20px 45px;
+    margin: 0px 45px;
+}
+.pq_fazer_o_quiz img{
+    width: 250px;
 }
 /* Fim da seção do Porque fazer o quiz? */
 
@@ -94,24 +115,27 @@ main{
 .confiar_em_nos{
     margin-top: 40px;
     padding: 40px 100px;
-    background-color: #BED0D0;
     text-align: center;
+    color: #e67278;
 }
 .confiar_em_nos h2{
     font-size: 34px;
+    color: #b83345;
 }
 .confiar_em_nos div{
     display: inline-block;
     vertical-align: middle;
-    width: 320px;
-    padding: 40px 20px;
+    width: 25%;
+    height: 440px;
+    padding: 30px 30px;
     margin: 40px 10px;
     border-radius: 10px;
-    box-shadow: 0px 0px 15px #32445e85;
-    background-color: white;
+    box-shadow: 0px 0px 15px #c5effe;
+    background-color: #ffffff;
 }
 .confiar_em_nos h3{
     margin: 20px;
+    color: #b83345;
 }
 
 /* Fim da seção do Por que confiar em nos? */
@@ -120,18 +144,19 @@ main{
 footer{
     margin-top: 20px;
     padding: 40px;
-    text-align: center;    
+    text-align: center;
+    color: #7b98db;   
 }
 footer a{
-    color: black;
     text-decoration: none;
     margin: auto 10px;
     padding: 5px;
     border-radius: 10px;
+    color: #7b98db;
 }
 footer a:hover{
-    color: #32445E;
-    background-color: #bed0d027;
+    color: #ffffff;
+    background-color: #7b98db;
 }
 footer p{
     margin: 30px 460px 0px;
@@ -142,15 +167,17 @@ footer p{
 
 /* Login */
 .login_cadastramento{
+    display: inline-block;
     text-align: center;
-    margin: 0% 33%;   
 }
+
 .login_cadastramento div{
-    margin-top: 120px;
+    margin: auto;
+    margin-top: 80px;
     padding: 20px;
     width: 400px;
     border-style: solid;
-    border-color: #BED0D0;
+    border-color: #c5effe;
     border-radius: 10px;
 }
 .form_login{
@@ -164,8 +191,9 @@ footer p{
     margin: 10px;
     width: 150px;
     padding: 7px;
-    color: white;
-    background-color: #32445E;
+    color: #ffffff;
+    background-color: #7b98db;
+    border-style: none;
     border-radius: 5px;
     font-weight: bold;
     font-size: 20px;
@@ -176,7 +204,7 @@ footer p{
 .login_cadastramento a{
     text-decoration: none;
     font-weight: bold;
-    color: #32445E;
+    color: #7b98db;
     
 }
 /* Fim do Login */
@@ -184,15 +212,15 @@ footer p{
 /* Perfil */
 .perfil{
     text-align: center;
-    margin: 0% 33%;   
 }
 .perfil div{
+    margin: auto;   
     text-align: left;
-    margin-top: 120px;
+    margin-top: 160px;
     padding: 20px;
     width: 400px;
     border-style: solid;
-    border-color: #BED0D0;
+    border-color: #c5effe;
     border-radius: 10px;
 }
 .perfil h1{
@@ -208,12 +236,13 @@ footer p{
     margin: 10px 30px;
     width: 120px;
     padding: 7px;
-    background-color: #32445E;
+    background-color: #7b98db;
+    border-style: none;
     border-radius: 5px;
 }
 .perfil a{
     font-weight: bold;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 /* Fim do Perfil */
