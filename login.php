@@ -23,8 +23,8 @@
 
     <main class="login_cadastramento">
         <div>
-            <form action="./index.php">
-                <p>E-mail: <input class="form_login" type="text" name="nome"></p>
+            <form method="post" action="./script/validar_login.php">
+                <p>E-mail: <input class="form_login" type="text" name="email"></p>
                 <p>Senha: <input class="form_login" type="password" name="senha"></p>
                 <input class="login_entrar" type="submit" value="Entrar" name="submit">
             </form>

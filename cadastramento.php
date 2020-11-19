@@ -23,11 +23,11 @@
         <main class="login_cadastramento">
             <div>
                 <h1>Cadastre-se</h1>
-                <form action="./perfil.php">
+                <form method="post" action="./script/cadastro_perfil.php">
                     <p>Nome: <input class="form_login" type="text" name="nome"></p>
                     <p>Idade: <input class="form_login" type="number" name="idade"></p>
                     <hr>
-                    <p>E-mail: <input class="form_login" type="text" name="nome"></p>
+                    <p>E-mail: <input class="form_login" type="text" name="email"></p>
                     <p>Senha: <input class="form_login" type="password" name="senha"></p>
                     <p><input type="checkbox" name="termos" id="termos"> Aceito os <a href="#">Termos de Uso</a> e a <a href="#">Política de Privacidade</a></p>
                     <input class="login_entrar" type="submit" value="Cadastrar" name="submit">

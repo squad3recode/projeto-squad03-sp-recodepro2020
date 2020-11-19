@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    // Se não existir um valor no indice nome, então encerre a aplicação
+    if (!isset($_SESSION['nome'])) {
+        header('Location: index.php');
+        exit;
+    }
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -23,15 +31,15 @@
         <div>
             <h1>Perfil</h1>
             <h2>Nome:</h2>
-            <p>Exemplo Papaeira</p>
+            <p><?php echo $_SESSION['nome']; ?></p>
             <h2>Idade:</h2>
-            <p>26</p>
+            <p><?php echo $_SESSION["idade"]; ?></p>
             <hr>
             <h2>E-mail:</h2>
-            <p>cadastrado:exemplo.papaeira@gmail.com</p>
+            <p><?php echo $_SESSION["email"]; ?></p>
         </div>
         <button><a href="#">Alterar perfil</a></button>
-        <button><a href="./index.php">Sair</a></button>
+        <button><a href="./index.php" <?php session_destroy()?>>Sair</a></button>
     </main>
     <br/><br/><br/><br/><br/><br/>
     <footer>
