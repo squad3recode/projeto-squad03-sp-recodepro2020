@@ -18,6 +18,7 @@
             <a class="menu_btn" href="#">Contato</a>
             <a class="menu_fazerquiz" href="#">Fazer Quiz</a>
             <a class="menu_btn" href="login.php">Login</a>
+            <a class="menu_btn" href="cadastramento.php">Cadastro</a>
         </nav>
     </menu>
 
