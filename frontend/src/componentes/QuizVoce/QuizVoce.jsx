@@ -75,7 +75,7 @@ const QuizVoce = () => {
                         />
                         <PerguntaSimples
                             num="4"
-                            pergunta="Você gosta que seu parceiro sinta ciúmes de você?"
+                            pergunta="Qual seria a quantidade de vezes ideal de ver suas amigas (os) por semana para conversar?"
                             respostaA="Todos os dias!"
                             respostaB="4 a 5 vezes por semana"
                             respostaC="3 a 4 vezes por semana"
