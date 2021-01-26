@@ -31,7 +31,7 @@ const FormLogin = () => {
                     </form>
                     <hr />
                     <p className="text-dark text-center">Não possui uma conta?</p>
-                    <a className="nav-item d-flex justify-content-center" href="./cadastramento.php">Cadastre-se</a>
+                    <a className="nav-item d-flex justify-content-center" href="./cadastro.html">Cadastre-se</a>
                 </div>
             }
             { (login === true) &&
