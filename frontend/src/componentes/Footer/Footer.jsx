@@ -4,7 +4,8 @@ const Footer = () => {
             <div className="containe pt-4">
                 <nav className="nav justify-content-center mb-2 pt-2">
                     <a className="nav-link mr-4 ml-4 disabled" href="#" style={{color: '#aaa', fontWeight: 'bold'}}>Testemunhos</a>
-                    <a className="nav-link mr-4 ml-4 disabled" href="#" style={{color: '#aaa', fontWeight: 'bold'}}>Contato</a>
+                    <a className="nav-link mr-4 ml-4 disabled" href="https://www.facebook.com/magnolia.afavel" style={{color: '#aaa', fontWeight: 'bold'}}>Facebook</a>
+                    <a className="nav-link mr-4 ml-4 disabled" href="https://twitter.com/magnoli78297555" style={{color: '#aaa', fontWeight: 'bold'}}>Twitter</a>
                     <a className="nav-link mr-4 ml-4 disabled" href="#" style={{color: '#aaa', fontWeight: 'bold'}}>Como ajudar</a>
                     <a className="nav-link mr-4 ml-4 disabled" href="#" style={{color: '#aaa', fontWeight: 'bold'}}>Termos de Uso</a>
                     <a className="nav-link mr-4 ml-4 disabled" href="#" style={{color: '#aaa', fontWeight: 'bold'}}>Política de Privacidade</a>
