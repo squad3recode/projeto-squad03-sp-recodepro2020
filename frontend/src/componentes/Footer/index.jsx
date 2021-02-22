@@ -1,3 +1,9 @@
+import React from 'react';
+
+import redeSocial01 from '../../assets/imagens/redesocial01.svg';
+import redeSocial02 from '../../assets/imagens/redesocial02.svg';
+import redeSocial03 from '../../assets/imagens/redesocial03.svg';
+
 const Footer = () => {
     return (
         <footer className="container-fluid" style={{ backgroundColor: 'rgba(240, 240, 240, 0.8)' }}>
@@ -14,12 +20,14 @@ const Footer = () => {
                         <p className="text-center">&copy;2021 - Squad 3 SP1 - Tarde</p>
                     </div>
                     <div>
-                        <img className="mr-1" style={{ width: '20px' }} src="./src/assets/imagens/redesocial01.svg" alt="Rede Social 1" />
-                        <img className="mr-1" style={{ width: '20px' }} src="./src/assets/imagens/redesocial02.svg" alt="Rede Social 2" />
-                        <img className="mr-1" style={{ width: '20px' }} src="./src/assets/imagens/redesocial03.svg" alt="Rede Social 3" />
+                        <img className="mr-1" style={{ width: '20px' }} src={redeSocial01} alt="Rede Social 1" />
+                        <img className="mr-1" style={{ width: '20px' }} src={redeSocial02} alt="Rede Social 2" />
+                        <img className="mr-1" style={{ width: '20px' }} src={redeSocial03} alt="Rede Social 3" />
                     </div>
                 </div>
             </div>
         </footer>
     );
 }
+
+export default Footer;

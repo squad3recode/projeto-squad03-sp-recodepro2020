@@ -1,3 +1,8 @@
+import React from 'react';
+
+import PerguntaSimples from '../PerguntaSimples';
+import PerguntaComImagem from '../PerguntaComImagem';
+
 const QuizVoce = () => {
     const [login, setLogin] = React.useState(true);
     const [quiz, setQuiz] = React.useState(0);
@@ -20,7 +25,7 @@ const QuizVoce = () => {
     }
 
     return (
-        <React.Fragment>
+        <>
             { (login === false) &&
                 <div className="container my-5 py-5 text-center border w-50" style={{ minHeight: '58vh' }}>
                     <h2 className="mb-5 h1">Olá tudo bem?</h2>
@@ -190,7 +195,9 @@ const QuizVoce = () => {
 
                 </div>
             }
-        </React.Fragment>
+        </>
 
     );
 }
+
+export default QuizVoce;

@@ -1,3 +1,5 @@
+import React from 'react';
+
 const PerguntaSimples = (props) => {
     return (
         <div className="d-flex mb-5 border px-5">
@@ -28,3 +30,5 @@ const PerguntaSimples = (props) => {
         </div>
     );
 }
+
+export default PerguntaSimples;

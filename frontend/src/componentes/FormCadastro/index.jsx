@@ -1,3 +1,5 @@
+import React from 'react';
+
 const FormCadastro = () => {
     const [cadastro, setCadastro] = React.useState(false);
 
@@ -16,7 +18,7 @@ const FormCadastro = () => {
     }
 
     return (
-        <React.Fragment>
+        <>
             { (cadastro === false) &&
                 <div className="container w-50 my-5 p-5 border">
                     <h1 className="text-center mb-4">Cadastrar-se</h1>
@@ -42,6 +44,8 @@ const FormCadastro = () => {
                     <a href="login.html" className="btn btn-lg mb-4 w-50 font-weight-bold" style={{ backgroundColor: '#7b98db', color: '#fff' }}>Faça o Login</a>
                 </div>
             }
-        </React.Fragment>
+        </>
     );
 }
+
+export default FormCadastro;

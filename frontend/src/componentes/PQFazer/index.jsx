@@ -1,3 +1,9 @@
+import React from 'react';
+
+import pqfazeroteste1 from '../../assets/imagens/pqfazeroteste01.svg';
+import pqfazeroteste2 from '../../assets/imagens/pqfazeroteste02.svg';
+
+
 const PQFazer = () => {
     return (
         <section id="pqFazer" className="container-fluid py-4 mb-5" style={{ color: '#b83345', backgroundColor: 'rgba(197, 239, 242, 0.2)' }}>
@@ -15,12 +21,12 @@ const PQFazer = () => {
                     </p>
                     </div>
                     <div className="ml-5">
-                        <img src="./src/assets/imagens/pqfazeroteste01.svg" alt="Icone 1" style={{ height: '30vh' }} />
+                        <img src={pqfazeroteste1} alt="Icone 1" style={{ height: '30vh' }} />
                     </div>
                 </div>
                 <div className="d-flex my-5">
                     <div className="mr-5">
-                        <img src="./src/assets/imagens/pqfazeroteste02.svg" alt="Icone 2" style={{ height: '30vh' }} />
+                        <img src={pqfazeroteste2} alt="Icone 2" style={{ height: '30vh' }} />
                     </div>
                     <div className="d-flex row w-75 ml-5">
                         <h3 className="ml-5">Você está solteira?</h3>
@@ -36,3 +42,5 @@ const PQFazer = () => {
         </section>
     );
 }
+
+export default PQFazer;

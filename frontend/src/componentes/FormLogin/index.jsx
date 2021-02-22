@@ -1,3 +1,5 @@
+import React from 'react';
+
 const FormLogin = () => {
     const [login, setLogin] = React.useState(false);
     const [usuaria, setUsuaria] = React.useState([]);
@@ -18,7 +20,7 @@ const FormLogin = () => {
     }
 
     return (
-        <React.Fragment>
+        <>
             { (login === false) &&
                 < div className="container w-50 my-5 p-5 border">
                     <h1 className="text-center mb-4">Faça seu login</h1>
@@ -54,6 +56,8 @@ const FormLogin = () => {
                     );
                 })
             }
-        </React.Fragment >
+        </>
     );
 }
+
+export default FormLogin;

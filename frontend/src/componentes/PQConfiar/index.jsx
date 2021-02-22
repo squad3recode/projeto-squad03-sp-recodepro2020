@@ -1,3 +1,9 @@
+import React from 'react';
+
+import pqConfiar1 from '../../assets/imagens/pqconfiar01.svg';
+import pqConfiar2 from '../../assets/imagens/pqconfiar02.svg';
+import pqConfiar3 from '../../assets/imagens/pqconfiar03.svg';
+
 const PQConfiar = () => {
     return (
         <section id="pqConfiar" className='container-fluid py-4 mb-5' style={{ color: '#b83345', backgroundColor: 'rgba(252, 158, 114, 0.08)' }}>
@@ -5,7 +11,7 @@ const PQConfiar = () => {
                 <h2 className='h1 my-4 text-center'>Por que confiar em nós?</h2>
                 <div className="my-5 d-flex flex-row text-center justify-content-center">
                     <div className="w-25 mx-3 p-3 border" style={{ backgroundColor: '#fff' ,borderColor: '#94c9f2', boxShadow: '0px 0px 10px rgba(148, 201, 242, 0.4)' }}>
-                        <img className="my-2" src="./src/assets/imagens/pqconfiar03.svg" alt="Icone 3" />
+                        <img className="my-2" src={pqConfiar3} alt="Icone 3" />
                         <h3>Quem somos</h3>
                         <p className="mt-3">
                             Nós somos uma equipe multiprofissional da área da tecnologia da
@@ -17,7 +23,7 @@ const PQConfiar = () => {
                     </p>
                     </div>
                     <div className="w-25 mx-3 p-3 border" style={{ backgroundColor: '#fff' ,borderColor: '#94c9f2', boxShadow: '0px 0px 10px rgba(148, 201, 242, 0.4)' }}>
-                        <img className="my-2" src="./src/assets/imagens/pqconfiar01.svg" alt="Icone 4" />
+                        <img className="my-2" src={pqConfiar1} alt="Icone 4" />
                         <h3>Como Podemos Ajudar</h3>
                         <p className="mt-3">
                             Para dar nossa contribuição nessa causa e ajudar mulheres que vivem
@@ -32,7 +38,7 @@ const PQConfiar = () => {
                     </p>
                     </div>
                     <div className="w-25 mx-3 p-3 border" style={{ backgroundColor: '#fff' ,borderColor: '#94c9f2', boxShadow: '0px 0px 10px rgba(148, 201, 242, 0.4)' }}>
-                        <img className="my-2" src="./src/assets/imagens/pqconfiar02.svg" alt="Icone 5" />
+                        <img className="my-2" src={pqConfiar2} alt="Icone 5" />
                         <h3>Nosso Acolhimento</h3>
                         <p className="mt-3">
                             Nosso Quizz oferece uma avaliação final para a mulher e uma nota de 1
@@ -48,3 +54,5 @@ const PQConfiar = () => {
         </section>
     );
 }
+
+export default PQConfiar;

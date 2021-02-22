@@ -1,3 +1,5 @@
+import React from 'react';
+
 const InfoPerfil = () => {
     return (
         <div className="container w-50 my-5 p-5 border">
@@ -16,3 +18,5 @@ const InfoPerfil = () => {
         </div>
     );
 }
+
+export default InfoPerfil;
