@@ -2,6 +2,8 @@ import React from 'react';
 
 import Home from './pages/Home';
 
+import global from './assets/styles/global.css';
+
 function App() {
   return (
     <div>

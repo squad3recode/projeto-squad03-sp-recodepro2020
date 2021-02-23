@@ -1,0 +1,104 @@
+header {
+    width: 100%;
+    height: 96px;
+    background-color: #b83345;
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 64px;
+    justify-content: space-between;
+}
+
+header nav div:nth-child(2) a {
+    margin-left: 32px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+header nav div a img {
+    height: 76px;
+}
+
+header nav div:nth-child(3) {
+    display: none;
+}
+
+#menuLateral{
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    header nav div:nth-child(2){
+        display: none;
+    }
+
+    header nav div:nth-child(3){
+        display: flex;
+    }
+
+    header nav div:nth-child(3) #icone{
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+    }
+
+    header nav div:nth-child(3) #icone img{
+        width: 40px;
+    }
+
+    header nav div:nth-child(3) #menuLateral{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 0vw;
+        height: 78vh;
+        background-color: #b83345;
+        position: fixed;
+        top: 0px;
+        right: -64px;
+        z-index: 1;
+        padding: 32px 0;
+        overflow: hidden;
+        transition: width 0.3s ;
+    }
+
+    header nav div:nth-child(3) #menuLateral a {
+        text-align: center;
+        padding: 12px 0;
+        width: 100%;
+        color: #ffffff;
+        font-weight: 500;
+    }
+
+    header nav div:nth-child(3) #menuLateral .link:hover {
+        text-decoration: none;
+        background-color: blue;
+    } 
+
+    header nav div:nth-child(3) #menuLateral button {
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+    }
+
+    header nav div:nth-child(3) #menuLateral button img {
+        width: 40px;
+    }
+}
+
+@media (max-width: 570px) {
+    header nav{
+        margin: 0 32px;
+    }
+
+    header nav div:nth-child(3) #menuLateral{
+        margin-right: 64px;
+    }
+
+    header nav div a img {
+        height: 64px;
+    }
+}

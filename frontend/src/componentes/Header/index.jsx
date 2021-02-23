@@ -1,22 +1,58 @@
 import React from 'react';
 
+import styles from './styles.css';
+
 import logotipo from '../../assets/imagens/logotipo.svg';
+import icone from '../../assets/imagens/bars-solid.svg';
 
 const Header = () => {
+
+    function abrirMenu() {
+        const width = window.innerWidth;
+
+        if(width < 500){
+            document.getElementById('menuLateral').style.width = '60vw';
+        } else if (width < 800) {
+            document.getElementById('menuLateral').style.width = '40vw';
+        } else {
+            document.getElementById('menuLateral').style.width = '30vw';
+        }
+        
+    }
+
+    function fecharMenu() {
+        document.getElementById('menuLateral').style.width = '0vw';
+    }
+
     return (
-        <header className="container-fluid" style={{backgroundColor: '#b83345'}}>
-            <nav className="nav container">
-                <a className="nav-link flex-grow-1" href="./index.html">
-                    <img src={logotipo} alt="Logotipo"
-                        style={{height: '10vh'}}
-                    />
-                </a>
-                <a className="nav-link active text-light my-auto" href="#pqFazer" style={{fontWeight: 'bold'}}>Por que fazer</a>
-                <a className="nav-link active text-light my-auto" href="#pqConfiar" style={{fontWeight: 'bold'}}>Por que confiar</a>
-                <a className="nav-link disabled my-auto" href="#" style={{color: '#aaa', fontWeight: 'bold'}}>Contato</a>
-                <a className="nav-link active text-light my-auto" href="./quizUm.html" style={{fontWeight: 'bold'}}>Fazer Quiz</a>
-                <a className="nav-link active text-light my-auto" href="./login.html" style={{fontWeight: 'bold'}}>Login</a>
-                <a className="nav-link active text-light my-auto" href="./cadastro.html" style={{fontWeight: 'bold'}}>Cadastro</a>
+
+        <header>
+            <nav>
+                <div>
+                    <a href="./index.html">
+                        <img src={logotipo} alt="Logotipo" />
+                    </a>
+                </div>
+                <div>
+                    <a href="#pqFazer">Por que fazer</a>
+                    <a href="#pqConfiar" >Por que confiar</a>
+                    <a href="#" style={{ color: '#aaa' }}>Contato</a>
+                    <a href="./quizUm.html" >Fazer Quiz</a>
+                    <a href="./login.html">Login</a>
+                    <a href="./cadastro.html">Cadastro</a>
+                </div>
+                <div>
+                    <button id="icone" onClick={abrirMenu}><img src={icone} alt="Menu lateral" /></button>
+                    <nav id="menuLateral">
+                        <button onClick={fecharMenu}><img src={icone} alt="Menu lateral" /></button>
+                        <a className="link" href="#pqFazer">Por que fazer</a>
+                        <a className="link" href="#pqConfiar" >Por que confiar</a>
+                        <a href="#" style={{ color: '#aaa' }}>Contato</a>
+                        <a className="link" href="./quizUm.html" >Fazer Quiz</a>
+                        <a className="link" href="./login.html">Login</a>
+                        <a className="link" href="./cadastro.html">Cadastro</a>
+                    </nav>
+                </div>
             </nav>
         </header>
     );
