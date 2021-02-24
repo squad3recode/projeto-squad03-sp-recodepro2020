@@ -28,6 +28,10 @@ header nav div:nth-child(3) {
     display: none;
 }
 
+header nav div:nth-child(3) nav a {
+    font-size: 16px; 
+}
+
 #menuLateral{
     display: none;
 }
@@ -101,4 +105,5 @@ header nav div:nth-child(3) {
     header nav div a img {
         height: 64px;
     }
+
 }

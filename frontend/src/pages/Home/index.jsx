@@ -10,8 +10,8 @@ const Home = () => {
     return (
         <>
             <Header />
-            {/* <Banner />
-            <PQFazer />
+            <Banner />
+            <PQFazer />{/*
             <PQConfiar />
             <Footer /> */}
         </>

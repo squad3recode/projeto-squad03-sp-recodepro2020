@@ -1,0 +1,137 @@
+.section-2 {
+    /* color: #b83345; */
+    background-color: rgba(197, 239, 242, 0.2);
+    padding: 96px;
+    margin-bottom: 96px;
+}
+
+.section-2 div h2 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 57.6px;
+    color: #b83345;
+    margin-bottom: 64px;
+}
+
+.section-2 div:nth-child(2) {
+    margin-bottom: 64px;
+}
+
+.section-2 div:nth-child(2) div{
+    margin-bottom: 0;
+}
+
+.section-2 div:nth-child(3) div{
+    margin-bottom: 0;
+}
+
+.section-2 div .container-pq-fazer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.section-2 div .container-pq-fazer h3{
+    color: #b83345;
+    font-size: 32px;
+    line-height: 38.4px;
+    margin-bottom: 32px;
+    font-weight: 500;
+}
+
+.section-2 div .container-pq-fazer p{
+    color: #343434;
+    font-size: 22px;
+    line-height: 33px;
+    hyphens: auto;
+    text-align: justify;
+    margin: 0px;
+}
+
+.section-2 div:nth-child(2) img{
+    height: 256px;
+    margin-left: 96px;
+}
+
+.section-2 div:nth-child(3) img{
+    height: 256px;
+    margin-right: 96px;
+}
+
+@media(max-width: 1200px) {
+    .section-2 {
+        padding: 96px 64px 96px 64px;
+    }
+
+    .section-2 div .container-pq-fazer h3{
+        text-align: center;
+    }
+}
+
+@media(max-width: 980px) {
+    .section-2 div h2 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .section-2 div .container-pq-fazer {
+        flex-direction: column;
+    }
+
+    .section-2 div:nth-child(2) div:nth-child(1) {
+        order: 2;
+    }
+
+    .section-2 div:nth-child(2) div:nth-child(2) {
+        order: 1;
+        margin-bottom: 32px;
+    }
+
+    .section-2 div:nth-child(2) div:nth-child(2) img {
+        margin-left: 0;
+        width: 45vw;
+    }
+
+    .section-2 div:nth-child(3) div:nth-child(1) img {
+        margin-right: 0;
+        width: 45vw;
+    }
+
+    .section-2 div .container-pq-fazer h3{
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .section-2 div .container-pq-fazer p{
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
+
+@media(max-width: 570px) {
+    .section-2 {
+        padding: 96px 32px 96px 32px;
+    }
+
+    .section-2 div h2 {
+        font-size: 28px;
+        line-height: 28.8px;
+        margin-bottom: 48px;
+    }
+
+    .section-2 div:nth-child(2) {
+        margin-bottom: 32px;
+    }
+
+    .section-2 div .container-pq-fazer h3{
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .section-2 div .container-pq-fazer p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
